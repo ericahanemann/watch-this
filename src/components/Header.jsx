@@ -18,7 +18,7 @@ function Header() {
 
   return (
     <header className="flex justify-between items-center h-20 mx-6">
-      <img className="h-12" src={logo} />
+      <Link to="/"><img className="h-12" src={logo} /></Link>
 
       <div className="flex gap-8">
         {renderedLinks}
