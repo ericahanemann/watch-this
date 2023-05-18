@@ -1,6 +1,6 @@
 # watch-this app (in development)
 
-##description
+## description
 app to keep track of your watchlists. data fetched from public apis.
 
 ## techs, tools and libs
@@ -12,11 +12,11 @@ app to keep track of your watchlists. data fetched from public apis.
 - omdb api
 - watchmode api
 
-##done
+## done
 - basic home page layout
 - custom navigation
 
-##to-dos
+## to-dos
 - add more media recommendations to home page
 - fetch data (work with redux)
 - finish media slider
