@@ -14,9 +14,6 @@ export default {
         secondary: 'var(--color-secondary)',
         highlights: 'var(--color-highlights)',
       },
-      backgroundImage: {
-        'home-poster': "url('./src/assets/temp-home-poster.png')",
-      }
     },
   },
   plugins: [],

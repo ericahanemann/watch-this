@@ -9,8 +9,9 @@ app to keep track of your watchlists. data fetched from public apis.
 - javascript
 - tailwind css
 - react-icons 
-- omdb api
-- watchmode api
+- redux toolkit 
+- moviedb api
+- watchmode api?
 
 ## done
 - basic home page layout
@@ -23,3 +24,4 @@ app to keep track of your watchlists. data fetched from public apis.
 - start media page
 - start my lists page
 - refactor navigation (react router?)
+- refactor state (redux toolkit)
