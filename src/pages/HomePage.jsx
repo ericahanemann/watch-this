@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Header from "../components/Header";
 import MediaList from "../components/MediaList";
 
 function HomePage({ media }) {
@@ -22,15 +23,16 @@ function HomePage({ media }) {
   }, [activeMediaIndex]);
 
   return (
-    <div className="relative h-full overflow-x-hidden flex flex-col">
+    <div className="relative overflow-x-hidden flex flex-col">
       <div
-        className="absolute inset-y-0 right-0 w-4/5 -z-10 duration-500"
+        className="h-screen absolute inset-y-0 right-0 w-4/5 -z-10 duration-500"
         style={mediaBackdrop}
       ></div>
-      <div className="absolute inset-0 bg-gradient-to-b from-primary via-transparent to-primary -z-10"></div>
+      <div className="h-screen absolute inset-0 bg-gradient-to-b from-primary via-transparent to-primary -z-10"></div>
 
-      <div className="mb-4 min-h-full flex flex-col justify-between bg-gradient-to-r from-primary from-30% via-transparent to-trasparent">
-        <div className="flex flex-col h-full gap-2 w-2/5 ml-24 mt-20 justify-start">
+      <div className="mb-4 min-h-screen flex flex-col justify-between bg-gradient-to-r from-primary from-30% via-transparent to-trasparent">
+        <Header />
+        <div className="flex-1 flex flex-col gap-2 w-2/5 ml-24 mt-20 justify-start">
           <h3 className="text-4xl font-bold tracking-tighter">
             {media[activeMediaIndex].title}
           </h3>

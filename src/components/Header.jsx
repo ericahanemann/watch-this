@@ -17,7 +17,7 @@ function Header() {
   });
 
   return (
-    <header className="flex justify-between items-center h-20 mx-6">
+    <header className="flex justify-between items-center min-h-20 mx-6 mt-3">
       <Link to="/"><img className="h-12" src={logo} /></Link>
 
       <div className="flex gap-8">

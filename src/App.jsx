@@ -1,4 +1,3 @@
-import Header from "./components/Header";
 import Route from "./components/Route";
 import HomePage from "./pages/HomePage";
 import ListsPage from "./pages/ListsPage";
@@ -26,8 +25,7 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col h-screen">
-      <Header />
+    <div>
       <Route path="/">
         <HomePage media={popularMedia} />
       </Route>
