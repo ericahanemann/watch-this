@@ -9,13 +9,16 @@ function MediaList({ media }) {
   const renderedMedia = displayedMedia.map((mediaItem) => {
     return (
       <MediaListItem
-      onMouse
         key={mediaItem.id}
         posterPath={mediaItem.poster_path}
         title={mediaItem.title}
       />
     );
   });
+
+  const handleMediaClick = () => {
+    
+  }
 
   const handleLeftArrowClick = () => {
     if (startIndex > 0) {

@@ -17,8 +17,10 @@ function Header() {
   });
 
   return (
-    <header className="flex justify-between items-center min-h-20 mx-6 mt-3">
-      <Link to="/"><img className="h-12" src={logo} /></Link>
+    <header className="fixed top-0 inset-x-0 flex justify-between items-center h-20 px-6 pb-2 bg-gradient-to-b from-primary from-60% to-transparent z-50">
+      <Link to="/">
+        <img className="h-12" src={logo} />
+      </Link>
 
       <div className="flex gap-8">
         {renderedLinks}
@@ -27,7 +29,7 @@ function Header() {
           <input
             className="bg-primary text-secondary border border-secondary outline-none rounded-md p-2 text-sm"
             type="text"
-            placeholder="Título, Autor, Diretor"
+            placeholder="Title, Actor, Genre"
           />
 
           <button

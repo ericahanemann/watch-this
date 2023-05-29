@@ -28,7 +28,7 @@ function HomePage({ media }) {
         className="h-screen absolute inset-y-0 right-0 w-4/5 -z-10 duration-500"
         style={mediaBackdrop}
       ></div>
-      <div className="h-screen absolute inset-0 bg-gradient-to-b from-primary via-transparent to-primary -z-10"></div>
+      <div className="h-screen absolute inset-0 bg-gradient-to-b from-primary from-10% via-transparent to-primary -z-10"></div>
 
       <div className="mb-4 min-h-screen flex flex-col justify-between bg-gradient-to-r from-primary from-30% via-transparent to-trasparent">
         <Header />
